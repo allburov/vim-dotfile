@@ -2,10 +2,15 @@
 ```
 # Install
 apt update
-apt install git make vim sudo
+apt install git make vim sudo curl
 
 # Configure vim
 sudo update-alternatives --config editor
+```
+
+```
+# install pathogen
+# https://github.com/tpope/vim-pathogen#installation
 
 # Install VIMRC
 cd ~/
