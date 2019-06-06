@@ -1,12 +1,16 @@
 # vim-dotfile
+
+## Prereq
+
 ```
-# Install
 apt update
 apt install git make vim sudo curl
 
 # Configure vim
 sudo update-alternatives --config editor
 ```
+
+## Install
 
 ```
 # install pathogen
@@ -17,5 +21,10 @@ cd ~/
 git clone --recursive https://github.com/allburov/vim-dotfile.git .vim
 
 make install
+```
+
+## Changes
+```
+git add *; git commit -m "`read -p 'Commit message:' opt`" && git push origin master
 ```
 

@@ -10,6 +10,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'moby/moby' , {'rtp': '/contrib/syntax/vim/'}
 Plugin 'Vimjas/vim-python-pep8-indent'
+Plugin 'stephpy/vim-yaml'
 
 
 " All of your Plugins must be added before the following line
@@ -28,6 +29,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 "
 syntax on
+set expandtab
+set shiftwidth=4
 
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
